@@ -1,0 +1,10 @@
+[package]
+name = "enum_type_test"
+version = "0.1.0"
+authors = ["Joseph Martin <josephm@maine.rr.com>"]
+
+[dependencies]
+diesel = "*"
+diesel_codegen = { version = "*", default-features = false, features = ["nightly", "postgres"] }
+dotenv = "*"
+dotenv_macros = "*"
