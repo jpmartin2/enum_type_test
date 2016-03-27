@@ -6,5 +6,3 @@ authors = ["Joseph Martin <josephm@maine.rr.com>"]
 [dependencies]
 diesel = "*"
 diesel_codegen = { version = "*", default-features = false, features = ["nightly", "postgres"] }
-dotenv = "*"
-dotenv_macros = "*"
